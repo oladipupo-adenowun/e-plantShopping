@@ -47,6 +47,18 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.product-category {
+    font-size: 30px;
+    margin: 20px;
+    border: 1px solid rgb(5, 4, 4);
+    border-left: none;
+    border-right: none;
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +82,6 @@ body {
     border-radius: 5px;
     text-align: center;
     position: relative;
-    
     gap: 20px;
 }
 
